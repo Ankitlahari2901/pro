@@ -23,7 +23,7 @@ except(ImportError):
 rana=platform.architecture()[0]
 try:
     if rana=="32bit":
-        __import__("pro32").mysecurity()
+        __import__("pro32").mysecurhhity()
     elif rana=="64bit":
         __import__("pro").mysecurity()
     else:
